@@ -1,10 +1,16 @@
 # Sistema de Gerenciamento de Mercadorias e Vendas de Outlets
 
 ![DEC](https://github.com/gabs-mvb/E-commerce/assets/110927310/2ee492a1-100e-40eb-a765-fca0b91832ad)
-<h3 align = "center">Design E-Commerce<h3\>
-<p><p\>
+# Design E-Commerce
+
   
 O Sistema de Gerenciamento de Mercadorias e Vendas de Outlets é uma aplicação desenvolvida em Java com Spring Boot, projetada para auxiliar no gerenciamento eficiente de produtos em outlets. Ele oferece recursos para controle de estoque, registro de vendas e análise de dados em um ambiente amigável através de um painel de controle.
+
+
+
+![image](https://github.com/gabs-mvb/E-commerce-Front/assets/110927310/47aa68f4-9651-4457-a0b8-81988878e5fb)
+- O objetivo deste documento é fornecer uma visão geral do nosso modelo, destacando as principais entidades, atributos e associações envolvidas em nossa aplicação. Além disso, explicaremos a importância do modelo na garantia da integridade dos dados, na eficiência das operações e na manutenção de uma base sólida para futuras expansões e melhorias do nosso projeto.
+
 
 ## Funcionalidades Principais
 
