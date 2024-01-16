@@ -1,0 +1,79 @@
+.funcionario {
+    width: 80%;
+    height: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    border-bottom: solid 1px #3f3f3f;
+}
+
+.item_nome {
+    color: rgb(31, 31, 31);
+    width: 30%;
+    height: 2rem;
+    max-width: 30%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+}
+
+.item_email {
+    color: rgb(31, 31, 31);
+    width: 30%;
+    height: 2rem;
+    max-width: 30%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    text-transform: lowercase;
+}
+
+.item_permissao {
+    color: rgb(31, 31, 31);
+    width: 15%;
+    height: 2rem;
+    max-width: 15%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    text-transform: lowercase;
+}
+
+.item_permissao>span:first-letter {
+    text-transform: capitalize;
+    /* background-color: red; */
+}
+
+.item_icones {
+    width: 10%;
+    height: 2rem;
+    max-width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item_icones>img {
+    height: 20px;
+    cursor: pointer;
+}
+
+
+.fundo_modal {
+    width: 100vw;
+    height: 100vh;
+    background-color: #00000012;
+    z-index: 20;
+    display: none;
+    position: absolute;
+}

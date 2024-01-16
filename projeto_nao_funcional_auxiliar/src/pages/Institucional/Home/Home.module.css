@@ -1,0 +1,254 @@
+.body{
+    background-color: #EFF5F4;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerVerde{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    height: 30vh;
+    background-color: #5DB8AF;
+}
+
+.storyBoard{
+    display: flex;
+    grid-template-columns: repeat(3, 1fr,);
+    gap: 50px;
+    width: 89%;
+    margin-top: 11vh;
+    margin-right: 10vw;
+}
+
+.cardStoryBoard{
+    width: 100%;
+}
+
+.cardStoryBoard img{
+    width: 100%;
+    height: 350px;
+}
+
+.cardStoryBoard p{
+    margin-top: 2vh;
+    font-size: 0.9em;
+}
+
+
+.container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.containerTituloStoryBoard{
+    display: flex;
+    width: 30%;
+    height: 20vh;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.containerTituloStoryBoard b{
+    font-size: 1.5rem;
+    color: #0D2724;
+}
+
+.containerTituloStoryBoard p{
+    font-size: 0.85rem;
+    margin-right: 1.87vw;
+    color: #0D2724;
+}
+
+.linhaLaranja{
+    width: 100%;
+    height: 3px;
+    margin-top: 1vh;
+    background-color: #FF9F1C;
+}
+
+.containerLaranja{
+    display: flex;
+    flex-direction: row;
+    margin-top: 42vh;
+    width: 100%;
+    height: 30vh;
+    background-color: #FF9F1C;
+}
+
+.containerImages{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.imgContainerLaranja{
+    width: 55%;
+    height: 40vh;
+    margin-left: 5vw;
+    margin-top: 5vh;
+}
+
+.imgCategorias{
+    width: 100%;
+    height: 32%;
+    margin-top: 14vh;
+    margin-left: 2.3vw;
+}
+
+.textoCategorias{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    justify-content: end;
+}
+
+.textoCategorias p{
+    margin-top: 3vh;
+    margin-right: 19.8vw;
+    font-size: 1rem;
+}
+
+.containerDetalhesAplicacao{
+    display: flex;
+    width: 98%;
+    height: 50vh;
+    margin-top: 26vh;
+}
+
+.containerDetalheAgenda{
+    display: flex;
+    width: 46%;
+    justify-content: center;
+    margin-left: 4.35vw;
+}
+
+.containerDetalheAgenda img{
+    width: 22vw;
+    height: 40vh;
+}
+
+.containerDetalheAgenda b{
+    font-size: 1.1rem;
+}
+
+.containerDetalheAgenda p{
+    font-size: 0.85rem;
+    margin-top: 5vh;
+}
+
+.containerDetalheEntrega{
+    display: flex;
+    width: 40%;
+}
+
+.containerDetalheEntrega img{
+    width: 22vw;
+    height: 40vh;
+}
+
+.containerDetalheEntrega b{
+    font-size: 1.1rem;
+}
+
+.containerDetalheEntrega p{
+    font-size: 0.85rem;
+    margin-top: 5.5vh;
+}
+
+.containerDetalhesReceitas{
+    display: flex;
+    width: 100%;
+    height: 48vh;
+    align-items: center;
+    margin-top: 10vh;
+    background: linear-gradient(104.68deg, #13968A 0.41%, #02665D 60.38%);
+}
+
+.containerDetalhesReceitas img{
+    width: 30vw;
+    height: 100%;
+    margin-left: 7vw;
+}
+
+.textosDetalhesReceitas{
+    width:39%;
+    margin-left: 10vw;
+}
+
+.textosDetalhesReceitas b{
+    color: #FFFFFF;
+    font-size: 1.3rem;
+}
+
+.textosDetalhesReceitas p{
+    color: #FFFFFF;
+    font-size: 0.85rem;
+    margin-top: 10vh;
+}
+
+.textosDetalhesReceitas button{
+    margin-top: 10vh;
+    color: #045D53;
+    background-color: #FFFFFF;
+    width: 9vw;
+    height: 6vh;
+    border-radius: 8px;
+}
+
+.containerBeneficios{
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    margin-top: 10vh;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.beneficios{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 70%;
+    height: 100%;
+}
+
+.beneficios img{
+    width: 26vw;
+    height: 35vh;
+    margin-top: 1vh;
+}
+
+.listaBeneficos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    margin-left: 3vw;
+    margin-top: 12vh;
+}
+
+.itemLista{
+    display: flex;
+    width: 85%;
+    flex-direction: row;
+    margin-bottom: 11vh;
+}
+
+.itemLista img{
+    width: 18px;
+    height: 18px;
+    margin-right: 2vw;
+}
+
+.itemLista p{
+    font-size: 0.95rem;
+    margin-top: 1vh;
+}

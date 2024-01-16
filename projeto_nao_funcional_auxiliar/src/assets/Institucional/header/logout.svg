@@ -1,0 +1,42 @@
+<svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="35" height="35" fill="#B5B5B5"/>
+<g id="Prot&#195;&#179;tipos Desktop">
+<g id="Cliente">
+<g id="Perfil - Senha e Autentica&#195;&#167;&#195;&#163;o" clip-path="url(#clip0_0_1)">
+<rect width="1440" height="1024" transform="translate(-1203 -23)" fill="white"/>
+<g id="Cliente - Header" filter="url(#filter0_d_0_1)">
+<rect id="BG" x="-1203" y="-23" width="1440" height="80" fill="white"/>
+<g id="Frame 39">
+<g id="Logout">
+<g id="logout">
+<mask id="mask0_0_1" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="35" height="35">
+<rect id="Bounding box" width="34.6279" height="34.6279" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_0_1)">
+<path id="logout_2" d="M7.21379 30.2994C6.42023 30.2994 5.7409 30.0169 5.17579 29.4518C4.61068 28.8867 4.32812 28.2073 4.32812 27.4138V7.21415C4.32812 6.4206 4.61068 5.74126 5.17579 5.17615C5.7409 4.61105 6.42023 4.32849 7.21379 4.32849H17.3136V7.21415H7.21379V27.4138H17.3136V30.2994H7.21379ZM23.0849 24.5281L21.101 22.436L24.7802 18.7568H12.9851V15.8711H24.7802L21.101 12.1919L23.0849 10.0998L30.2991 17.314L23.0849 24.5281Z" fill="#2EC4B6"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<path d="M-6369 -3047H5189V-3067H-6369V-3047ZM5181 -3055V1413H5201V-3055H5181ZM5189 1405H-6369V1425H5189V1405ZM-6361 1413V-3055H-6381V1413H-6361ZM-6369 1405C-6364.58 1405 -6361 1408.58 -6361 1413H-6381C-6381 1419.63 -6375.63 1425 -6369 1425V1405ZM5181 1413C5181 1408.58 5184.58 1405 5189 1405V1425C5195.63 1425 5201 1419.63 5201 1413H5181ZM5189 -3047C5184.58 -3047 5181 -3050.58 5181 -3055H5201C5201 -3061.63 5195.63 -3067 5189 -3067V-3047ZM-6369 -3067C-6375.63 -3067 -6381 -3061.63 -6381 -3055H-6361C-6361 -3050.58 -6364.58 -3047 -6369 -3047V-3067Z" fill="black"/>
+</g>
+<path d="M-6924 -3279H5950V-3299H-6924V-3279ZM5942 -3287V5905H5962V-3287H5942ZM5950 5897H-6924V5917H5950V5897ZM-6916 5905V-3287H-6936V5905H-6916ZM-6924 5897C-6919.58 5897 -6916 5900.58 -6916 5905H-6936C-6936 5911.63 -6930.62 5917 -6924 5917V5897ZM5942 5905C5942 5900.58 5945.58 5897 5950 5897V5917C5956.63 5917 5962 5911.63 5962 5905H5942ZM5950 -3279C5945.58 -3279 5942 -3282.58 5942 -3287H5962C5962 -3293.63 5956.62 -3299 5950 -3299V-3279ZM-6924 -3299C-6930.63 -3299 -6936 -3293.63 -6936 -3287H-6916C-6916 -3282.58 -6919.58 -3279 -6924 -3279V-3299Z" fill="black"/>
+</g>
+<defs>
+<filter id="filter0_d_0_1" x="-1207" y="-23" width="1448" height="88" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape"/>
+</filter>
+<clipPath id="clip0_0_1">
+<rect width="1440" height="1024" fill="white" transform="translate(-1203 -23)"/>
+</clipPath>
+</defs>
+</svg>

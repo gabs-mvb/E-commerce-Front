@@ -1,0 +1,58 @@
+.container_kpis{
+    width: 86.8%;
+}
+
+.kpi_esquerda{
+    width: 58%;
+}
+
+.kpi_direita{
+    width: 37%;
+}
+
+.combobox_kpi_esquerda{
+    border-radius: 0.5rem;
+    border: 0.2px solid rgb(118, 118, 118);
+    background: #f4f4f4;
+    cursor: pointer;
+}
+
+.container_escolhidos{
+    width: 95%;
+}
+
+.width_escolhidos{
+    width: 49%;
+}
+
+.width_numero_rank{
+    width: 13.5%;
+}
+
+.width_categorias{
+    width: 55%;
+}
+
+.width_qtd_escolhas{
+    width: 30.2%;
+}
+
+.width_avaliados{
+    width: 92%;
+}
+
+.width_numero_rank_receitas{
+    width: 11%;
+}
+
+.width_receita{
+    width: 42.3%;
+}
+
+.width_qtd_avaliacoes{
+    width: 20.4%;
+}
+
+.width_avaliacao{
+    width: 25.2%;
+}

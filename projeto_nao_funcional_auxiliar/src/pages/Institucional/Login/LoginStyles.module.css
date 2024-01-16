@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #EFF5F4;
+}
+
+.bodyLogin {
+    background-color: #EFF5F4;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ondaSuperiorDireita {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.ondaInferiorEsquerda {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.ondaInferiorDireita {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.containerCard {
+    width: 65rem;
+    height: 40rem;
+    /* width: 60%;
+    height: 90%; */
+    /* padding: 20px; */
+    align-items: center;
+    /* background-color: #e600ff; */
+    border-radius: 24px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    z-index: 1000;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.containerCard>img {
+    /* background-color: rgb(167, 255, 186); */
+    /* height: 70%; */
+    /* width: 45%; */
+    width: 30rem;
+}
+
+.card_formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 45%; */
+    width: 30rem;
+    height: 85%;
+    /* height: 40rem   ; */
+    background-color: rgb(255, 255, 255);
+    border: solid 1px #BFBFBF;
+    border-radius: 30px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card_formulario>h1 {
+    color: #FF9F1C;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    /* background-color: #BFBFBF; */
+    margin: 40px 0px 20px 0px;
+}
+
+.campo {
+    width: 80%;
+    /* background-color: rgb(234, 255, 234); */
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+}
+
+.campo>b{
+    color: #045D53;;
+}
+
+.input{
+    width: 100%;
+    height: 2.125rem;
+    padding: 0.6rem;
+    border-radius: 0.3rem;
+    border: 0.5px solid rgb(118, 118, 118);
+    background: #FFFDFD;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.card_formulario>span {
+    /* background-color: #BFBFBF; */
+    width: 80%;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    margin: 10px 0px 20px 0px;
+}
+
+
+.card_formulario>button {
+    background: #2EC4B6;
+    border-radius: 8px;
+    width: 35%;
+    height: 2.525rem;
+    color: #FFFDFD;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.esqueci_senha {
+    color: #045D53;
+    text-decoration: underline;
+    font-size: 13px;
+}
+
+.container_ou {
+    width: 80%;
+    height: 30px;
+    /* background-color: #FF9F1C; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px 25px 0px;
+}
+
+.container_ou>h1 {
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.linha {
+    width: 40%;
+    height: 1.5px;
+    background-color: #000;
+    border-radius: 100%;
+}
+
+.cadastre_conta {
+    color: #2EC4B6;
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+/* Mensagem de erro  */
+.errorMessage {
+    color: red;
+    margin-top: 5px;
+    font-size: 13px;
+  }
+
+.inputError{
+    border: 1px solid red;
+}

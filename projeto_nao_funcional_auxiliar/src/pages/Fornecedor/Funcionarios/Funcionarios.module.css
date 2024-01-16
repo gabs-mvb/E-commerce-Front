@@ -1,0 +1,185 @@
+.body {
+    /* background-color: rgb(237, 237, 237); */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteudo {
+    width: 80%;
+    /* background-color: rgb(255, 188, 188); */
+}
+
+.titulo {
+    width: 100%;
+    border-bottom: 1px solid #C1CECD;
+    /* background-color: rgb(196, 223, 196); */
+    margin: 2rem 0rem;
+}
+
+.titulo>h1 {
+    color: #DC7726;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border-radius: 12px;
+    background-color: #fff;
+    border: 0.3px solid #0000002d;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 4rem 0rem;
+    margin-bottom: 4rem;
+}
+
+.acoes {
+    width: 80%;
+    height: 2rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    z-index: 50;
+}
+
+.acoes>button {
+    height: 100%;
+    width: 14rem;
+    border-radius: 8px;
+    border: 1px solid #FF9F1C;
+    background: #DC7726;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.upload {
+    width: 14rem;
+    height: 100%;
+    display: flex;
+}
+
+.upload_input {
+    height: 100%;
+    width: 14rem;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Alinhar horizontalmente */
+    max-width: 100%;
+}
+
+
+input[type="file"] {
+    max-width: 100%;
+    width: 14rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+.upload_input::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+
+.upload_input::before {
+    height: 100%;
+    content: 'Importar Funcionário';
+    border-radius: 8px;
+    border: 1px solid #FF9F1C;
+    background: #DC7726;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    content: 'Importar Funcionário';
+    display: flex;
+    justify-content: center;
+}
+
+.input_buscar {
+    position: relative;
+    height: 100%;
+    width: 50%;
+    border-radius: 50px;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+}
+
+.input_buscar>input {
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    padding-left: 1rem;
+}
+
+.input_buscar>img {
+    position: absolute;
+    right: 0;
+}
+
+.titulos {
+    width: 80%;
+    padding: 1rem 0rem;
+    background-color: #23BCAE;
+    display: flex;
+    justify-content: space-around;
+    color: #FFF;
+}
+
+.funcionario {
+    width: 80%;
+    padding: 1rem 0rem;
+    background-color: #e7e7e7;
+    display: flex;
+    justify-content: space-around;
+    color: #FFF;
+    border-bottom: solid 1px #3f3f3f;
+}
+
+.item_nome {
+    /* background-color: #d4d4d4; */
+    color: #fff;
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.item_nome>img,
+.item_email>img,
+.item_permissao>img {
+    height: 20px;
+}
+
+.item_email {
+    /* background-color: #d4d4d4; */
+    color: #fff;
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.item_permissao {
+    /* background-color: #d4d4d4; */
+    color: #fff;
+    width: 15%;
+    display: flex;
+    align-items: center;
+}
+
+.item_icones {
+    /* background-color: #d4d4d4; */
+    /* color: rgb(31, 31, 31); */
+    width: 10%;
+}

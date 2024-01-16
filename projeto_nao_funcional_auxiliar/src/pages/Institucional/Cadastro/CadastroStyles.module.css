@@ -1,0 +1,173 @@
+.bg {
+    background-color: #EBF1F0;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 0.6rem;
+    -webkit-box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.card_plano {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 0.6rem;
+    margin: 1rem 0.5rem;
+    -webkit-box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.card_plano_selecionado {
+    background-color: #FFF1DD;
+    border: 3px solid #FF9F1C;
+    padding: 10px;
+    border-radius: 0.6rem;
+    margin: 1rem 0.5rem;
+    -webkit-box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.customizacao_plano {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border: 1px solid rgb(145, 145, 145);
+}
+
+.customizacao_plano_selecionado {
+    background-color: #FFF1DD;
+    border: 2px solid #FF9F1C;
+    padding: 12px;
+}
+
+.customizacao_plano_comeco {
+    background-color: #f4f4f4;
+    border-radius: 10px 0 0 10px;
+    padding: 12px;
+    border: 1px solid rgb(145, 145, 145);
+}
+
+.customizacao_plano_fim {
+    background-color: #f4f4f4;
+    border-radius: 0 10px 10px 0;
+    padding: 12px;
+    border: 1px solid rgb(145, 145, 145);
+}
+
+.customizacao_plano_selecionado_pontas {
+    background-color: #FFF1DD;
+    border: 2px solid #FF9F1C;
+    padding: 12px;
+}
+
+.dia_semana_plano {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    margin-left: 0.4rem;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid rgb(100, 100, 100);
+}
+
+.dia_semana_plano_selecionado {
+    background-color: #FFF1DD;
+    border: 2px solid #FF9F1C;
+}
+
+.texto_card_plano {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: #045D53;
+}
+
+.input {
+    width: 17rem;
+    height: 2.125rem;
+    padding: 0.6rem;
+    border-radius: 0.3rem;
+    border: 0.5px solid rgb(118, 118, 118);
+    background: #FFFDFD;
+    font-size: 16px;
+}
+
+.input_pequena {
+    width: 10rem;
+    height: 2.125rem;
+    padding: 0.6rem;
+    border-radius: 0.3rem;
+    border: 0.5px solid rgb(118, 118, 118);
+    background: #FFFDFD;
+    font-size: 16px;
+}
+
+.input_grande {
+    width: 22rem;
+    height: 2.125rem;
+    padding: 0.6rem;
+    border-radius: 0.3rem;
+    border: 0.5px solid rgb(118, 118, 118);
+    background: #FFFDFD;
+    font-size: 16px;
+}
+
+.combobox {
+    padding: 0.3rem 3.4rem;
+    border-radius: 0.3rem;
+    border: 0.5px solid rgb(118, 118, 118);
+    background: #FFFDFD;
+    font-size: 16px;
+}
+
+.combobox_plano {
+    padding: 0.4rem 2rem;
+    border-radius: 0.3rem;
+    border: 0.5px solid rgb(118, 118, 118);
+    background: #f4f4f4;
+    font-size: 16px;
+}
+
+.divisor {
+    background-color: #AEBDBC;
+    height: 100%;
+    width: 3px;
+}
+
+.divisorTotalPreco {
+    display: block;
+    width: 100%;
+    height: 2.5px; 
+    background-color: #AEBDBC;
+}
+
+.btnCadastro {
+    width: 8rem;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    background-color: #F29311;
+    border: 2px solid #FF9F1C;
+    color: white;
+    font-weight: 600;
+    margin-top: 1.4rem;
+}
+
+.btnCadastroCancelar {
+    width: 8rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+    font-weight: 600;
+    margin-top: 1.4rem;
+}

@@ -1,0 +1,49 @@
+.card {
+    width: 90%;
+    background-color: #fff;
+    border: 2px solid #DADADA;
+    padding: 15px 30px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 4px 0px #0000003a;
+    transition: 0.1s ease-in-out;
+}
+
+.card:hover {
+    scale: 1.01;
+}
+
+.titulo {
+    padding-left: 5rem;
+    color: #DC7726;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.container_informacoes {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.esquerda {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    padding-left: 5rem;
+    justify-content: center;
+    font-weight: 400;
+}
+
+.linha {
+    width: 1.5px;
+    height: 80px;
+    background-color: #dc782680;
+}
+
+.direita {
+    font-weight: 400;
+    width: 65%;
+    padding-left: 12rem;
+    display: flex;
+    flex-direction: column;
+}

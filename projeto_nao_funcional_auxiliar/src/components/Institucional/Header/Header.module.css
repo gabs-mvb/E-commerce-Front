@@ -1,0 +1,43 @@
+.headerHome {
+    background-color: #ffffff;
+    display: flex;
+    height: 4rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.25);
+    z-index: 10;
+}
+
+.conteudo {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 100%;
+}
+
+.itens {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botao_login {
+    padding: 2.5% 10%;
+    border-radius: 8px;
+    background-color: #DC7726;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.como_funciona {
+    color: #045D53;
+    font-size: 16px;
+    font-weight: 500;
+}

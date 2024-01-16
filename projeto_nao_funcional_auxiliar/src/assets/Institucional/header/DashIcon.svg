@@ -1,0 +1,42 @@
+<svg width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="43" height="43" fill="#B5B5B5"/>
+<g id="Prot&#195;&#179;tipos Desktop">
+<g id="Fornecedor">
+<g id="Funcion&#195;&#161;rios" clip-path="url(#clip0_0_1)">
+<rect width="1440" height="1024" transform="translate(-624 -19)" fill="white"/>
+<g id="Cliente - Header" filter="url(#filter0_d_0_1)">
+<rect id="BG" x="-623" y="-19" width="1440" height="80" fill="white"/>
+<g id="Frame 5">
+<g id="Group 110">
+<g id="DashIcon">
+<mask id="mask0_0_1" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="43" height="43">
+<rect id="Bounding box" width="43" height="43" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_0_1)">
+<path id="bar_chart_4_bars" d="M3.58398 34.625V31.0417H39.4173V34.625H3.58398ZM5.37565 29.25V16.7083H10.7507V29.25H5.37565ZM14.334 29.25V7.75H19.709V29.25H14.334ZM23.2923 29.25V13.125H28.6673V29.25H23.2923ZM32.2507 29.25V2.375H37.6256V29.25H32.2507Z" fill="#2EC4B6"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<path d="M-4282 -582H7276V-602H-4282V-582ZM7268 -590V3234H7288V-590H7268ZM7276 3226H-4282V3246H7276V3226ZM-4274 3234V-590H-4294V3234H-4274ZM-4282 3226C-4277.58 3226 -4274 3229.58 -4274 3234H-4294C-4294 3240.63 -4288.63 3246 -4282 3246V3226ZM7268 3234C7268 3229.58 7271.58 3226 7276 3226V3246C7282.63 3246 7288 3240.63 7288 3234H7268ZM7276 -582C7271.58 -582 7268 -585.582 7268 -590H7288C7288 -596.627 7282.63 -602 7276 -602V-582ZM-4282 -602C-4288.63 -602 -4294 -596.627 -4294 -590H-4274C-4274 -585.582 -4277.58 -582 -4282 -582V-602Z" fill="black"/>
+</g>
+<path d="M-4819 -5549H8055V-5569H-4819V-5549ZM8047 -5557V3635H8067V-5557H8047ZM8055 3627H-4819V3647H8055V3627ZM-4811 3635V-5557H-4831V3635H-4811ZM-4819 3627C-4814.58 3627 -4811 3630.58 -4811 3635H-4831C-4831 3641.63 -4825.62 3647 -4819 3647V3627ZM8047 3635C8047 3630.58 8050.58 3627 8055 3627V3647C8061.63 3647 8067 3641.63 8067 3635H8047ZM8055 -5549C8050.58 -5549 8047 -5552.58 8047 -5557H8067C8067 -5563.63 8061.62 -5569 8055 -5569V-5549ZM-4819 -5569C-4825.63 -5569 -4831 -5563.63 -4831 -5557H-4811C-4811 -5552.58 -4814.58 -5549 -4819 -5549V-5569Z" fill="black"/>
+</g>
+<defs>
+<filter id="filter0_d_0_1" x="-627" y="-19" width="1448" height="88" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape"/>
+</filter>
+<clipPath id="clip0_0_1">
+<rect width="1440" height="1024" fill="white" transform="translate(-624 -19)"/>
+</clipPath>
+</defs>
+</svg>

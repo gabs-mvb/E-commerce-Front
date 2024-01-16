@@ -1,0 +1,199 @@
+.body {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.card {
+    width: 57rem;
+    /* min-height: 43rem; */
+    border-radius: 0.75rem;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 89px 47px rgba(0, 0, 0, 0.1);
+    position: relative;
+    height: 43rem;
+    overflow: auto;
+    scrollbar-color: #2ec4b6 #ffffff;
+    box-shadow: 0px 0px 48px 5px rgba(0, 0, 0, 0.46);
+}
+
+.card::-webkit-scrollbar {
+    width: 16px;
+}
+
+.card::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 16px;
+    border: 5px solid #fff;
+}
+
+.card::-webkit-scrollbar-track {
+    background-color: #ffffff;
+    border-radius: 50px;
+}
+
+.card::-webkit-scrollbar-horizontal {
+    height: 12px;
+}
+
+.icone_sair {
+    height: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.linha_vertical {
+    height: 39rem;
+    width: 3px;
+    background-color: #045d53;
+    display: fixed;
+}
+
+.esquerda {
+    /* background-color: rgb(112, 153, 179); */
+    display: flex;
+    flex-direction: column;
+    width: 28rem;
+    height: 43rem;
+    padding: 2rem;
+    /* overflow:auto; */
+}
+
+.container_avaliacao {
+    display: flex;
+    padding: 0px 0px 5px 0px;
+    justify-content: space-between;
+    /* background-color: #eeeeee; */
+}
+
+.editar_excluir {
+    display: flex;
+}
+
+.imagem {
+    height: 11rem;
+    background-color: lightslategray;
+    border-radius: 12px;
+    box-shadow: 4px 5px 24px 0px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.imagem>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container_nome {
+    /* background-color: lightsalmon; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nome_receita {
+    font-size: 32px;
+    font-weight: 700;
+    margin-right: 5px;
+    color: #DC7726;
+    text-transform: capitalize;
+}
+
+.icone {
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+    margin: 0px 5px;
+}
+
+.titulo_ingredientes {
+    font-size: 20px;
+    font-weight: 700;
+    color: #DC7726;
+    padding: 0.5rem 0rem;
+}
+
+.container_ingredientes {
+    /* background-color: rgba(222, 247, 255, 0.317); */
+    padding-left: 20px;
+    list-style-type: disc;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.container_ingredientes>li {
+    margin: 5px 0px;
+    font-weight: 500;
+}
+
+.container_ingredientes>li::first-letter,
+.container_preparo>li::first-letter {
+    text-transform: uppercase;
+}
+
+.porcoes {
+    margin-top: auto;
+}
+
+.direita {
+    /* background-color: rgba(255, 182, 193, 0.623); */
+    width: 28rem;
+    height: 43rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    /* overflow:auto; */
+}
+
+.titulo_preparo {
+    /* background-color: green; */
+
+    font-size: 20px;
+    font-weight: 700;
+    color: #DC7726;
+    margin-bottom: 10px;
+}
+
+.container_preparo {
+    /* background-color: bisque; */
+    list-style-type: decimal;
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+.container_preparo>li {
+    margin: 10px 0px;
+    font-weight: 500;
+}
+
+.container_tempo_categoria_preferencia {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+}
+
+
+.preferencia {
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    flex-wrap: wrap;
+}
+
+.preferencia>b,
+.categoria>b {
+    margin-right: 5px;
+}

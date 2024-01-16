@@ -1,0 +1,352 @@
+.body {
+    background-color: #EFF5F4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5rem;
+}
+
+.topo {
+    width: 70rem;
+    /* background-color: lightblue; */
+}
+
+.titulo_pagina {
+    font-size: 32px;
+    font-weight: 400;
+    color: #045d53;
+}
+
+.linha_horizontal {
+    height: 1px;
+    width: 100%;
+    background-color: #cacaca;
+}
+
+.container_imagem_titulo {
+    width: 70rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0px 90px 0px;
+}
+
+.container_imagem {
+    width: 28rem;
+    height: 18rem;
+    border-radius: 12px;
+    background-color: rgba(234, 240, 240, 0.77);
+    box-shadow: 0px 3px 10px 3px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.imagem img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.icone_upload {
+    background-color: #ffffff4f;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.icone_upload {
+    background-color: #ffffff4f;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.container_titulo_categoria {
+    min-height: 18rem;
+    width: 26.5rem;
+    /* background-color: #8acfc7; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container_titulo_categoria>label {
+    display: flex;
+    flex-direction: column;
+}
+
+.container_titulo_categoria>label>span {
+    color: #DC7726;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.input_titulo {
+    height: 2.5rem;
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 8px;
+}
+
+.container_categoria_preferencia {
+    display: flex;
+    flex-direction: column;
+}
+
+.itens {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.itens>b {
+    margin-right: 3px;
+}
+
+.item {
+    border: 1px solid #000;
+    padding: 1px 5px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.container_categoria_preferencia>span>p {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.inputs_medida .icone {
+    width: 25px;
+    height: 25px;
+    background-color: #fff;
+    cursor: pointer;
+    position: absolute;
+    right: -30px;
+}
+
+.icone {
+    width: 25px;
+    height: 25px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.container_medida_rendimento {
+    width: 70rem;
+    /* height: 30rem; */
+    /* background-color: darkcyan; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.container_rendimento {
+    width: 22rem;
+    /* background-color: antiquewhite; */
+    margin-bottom: 5rem;
+}
+
+.container_rendimento>h1 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #DC7726;
+    margin-bottom: 1rem;
+}
+
+.rendimento>input {
+    width: 3rem;
+    margin: 0px 5px;
+    border: solid 1px #000;
+    border-radius: 8px;
+    text-align: center;
+}
+
+
+.container_tempo {
+    width: 22rem;
+    /* background-color: antiquewhite; */
+}
+
+.container_tempo>h1 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #DC7726;
+    margin-bottom: 1rem;
+}
+
+.tempo>span {
+    margin: 0px 10px;
+}
+
+.tempo>input {
+    width: 3rem;
+    border: solid 1px #000;
+    border-radius: 8px;
+    text-align: center;
+    /* margin: 0px 5px; */
+}
+
+.unidade_medida {
+    width: 40rem;
+    /* height: 10rem; */
+    /* background-color: antiquewhite; */
+}
+
+.titulos_medida {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputs_medida {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0px;
+    position: relative;
+}
+
+.titulos_medida>h1 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #DC7726;
+}
+
+.titulo_quantidade {
+    /* background-color: lightcyan; */
+    width: 8rem;
+    text-align: center;
+}
+
+.input_quantidade {
+    width: 8rem;
+    height: 2rem;
+    border-radius: 8px;
+    border: solid 1px #000;
+    text-align: center;
+}
+
+.titulo_unidade {
+    /* background-color: lightcyan; */
+    width: 10rem;
+    text-align: center;
+}
+
+.input_unidade {
+    width: 10rem;
+    height: 2rem;
+    border-radius: 8px;
+    border: solid 1px #000;
+    padding: 0px 3px;
+}
+
+.titulo_ingrediente {
+    /* background-color: lightcyan; */
+    width: 15rem;
+    text-align: center;
+}
+
+.input_ingrediente {
+    width: 15rem;
+    height: 2rem;
+    border-radius: 8px;
+    border: solid 1px #000;
+}
+
+.adicionar_ingrediente {
+    width: 100%;
+    height: 2rem;
+    background-color: rgba(234, 240, 240, 0.77);
+    border-radius: 8px;
+    border: solid 1px #00000096;
+    margin: 5px 0px;
+}
+
+.container_modo_preparo {
+    width: 70rem;
+    margin: 40px 0px;
+}
+
+.titulo_preparo {
+    color: #DC7726;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.passo {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+    position: relative;
+}
+
+.passo .icone {
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    right: -30px;
+}
+
+.passo>span {
+    color: #DC7726;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.container_titulo_categoria>label>textarea,
+.passo>textarea {
+    border-radius: 12px;
+    padding: 2px;
+    border: solid 1px #000;
+}
+
+.adicionar_passo {
+    width: 100%;
+    height: 2rem;
+    background-color: rgba(234, 240, 240, 0.77);
+    border-radius: 8px;
+    border: solid 1px #00000096;
+    margin: 20px 0px;
+}
+
+.botoes {
+    height: 2rem;
+    display: flex;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 700;
+    color: #fff;
+    width: 70rem;
+}
+
+.botoes>button {
+    border-radius: 8px;
+    background: #C5C5C5;
+    width: 8rem;
+    transition: transform 0.1s ease-in-out;
+}
+
+.cancelar:hover {
+    background-color: red;
+    transform: scale(1.05);
+}
+
+.confirmar:hover {
+    background-color: green;
+    transform: scale(1.05);
+}

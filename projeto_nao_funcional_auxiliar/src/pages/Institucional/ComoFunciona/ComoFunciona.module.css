@@ -1,0 +1,139 @@
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.oque_e {
+    /* background-color: rgb(212, 212, 212); */
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    height: 250px;
+    margin-top: 12vh;
+    /* margin: 5vh 0px; */
+}
+
+.imagem_topico {
+    height: 100%;
+    /* background-color: red; */
+}
+
+.texto {
+    height: 100%;
+    /* background-color: rgb(178, 255, 255); */
+    /* margin-left: 30px; */
+    width: 74%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.texto>h1 {
+    color: #DC7726;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.texto>p {
+    color: #000;
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.como_fazemos {
+    /* background-color: #e9e9e9; */
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    align-items: center;
+    margin: 5vh 0px;
+}
+
+.como_fazemos>h1 {
+    color: #DC7726;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    /* margin: 8vh 0px; */
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+}
+
+.container_itens {
+    /* background-color: rgb(255, 186, 186); */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item {
+    /* background-color: rgb(174, 174, 253); */ 
+    /* border: solid 1px rgb(0, 0, 0); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+}
+
+.item>img{
+    /* background-color: red; */
+    width: 55%;
+}
+
+.item>span {
+    color: #000;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 30px 0px;
+}
+
+.circulo {
+    background-color: #045D53;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+.linha {
+    height: 5px;
+    width: 100%;
+    background-color: #045D53;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.variedade {
+    display: flex;
+    /* background-color: rgb(212, 212, 212); */
+    flex-direction: row-reverse;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    height: 250px;
+    margin-top: 10vh;
+    margin-bottom: 12vh;
+}
+
+.texto>button {
+    border-radius: 12px;
+    height: 40px;
+    width: 30%;
+    background-color: #FF9F1C;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.1);
+}

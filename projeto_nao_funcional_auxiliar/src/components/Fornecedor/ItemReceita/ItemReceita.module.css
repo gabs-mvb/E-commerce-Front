@@ -1,0 +1,82 @@
+.card {
+    width: 22.5%;
+    border: 1px solid #e2e2e2;
+    padding: 1rem;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
+}
+
+.imagem {
+    background-color: #788991;
+    height: 10rem;
+    width: 100%;
+    border-radius: 12px;
+}
+
+.nome_receita {
+    margin-top: 0.8rem;
+    font-size: 18px;
+    font-weight: 600;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.container_categorias {
+    flex-wrap: wrap;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.nome_categoria {
+    /* background-color: #788991; */
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.categoria {
+    font-weight: 275;
+    text-transform: capitalize;
+}
+
+.preferencia {
+    margin: 15px 0px;
+}
+
+.preferencia>span {
+    text-transform: capitalize;
+    margin: 1rem 0rem;
+    padding: 1px 10px;
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+
+.avaliacao {
+    height: 15px;
+    width: 13rem;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.avaliacao_delete {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: auto;
+}
+
+.avaliacao_delete>.icone {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}

@@ -1,0 +1,62 @@
+.header {
+    background-color: #FFF;
+    display: flex;
+    height: 4rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.25);
+    z-index: 1000;
+}
+
+.conteudo {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #045D53;
+    font-weight: 400;
+}
+
+.itens_esquerda {
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.itens_direita {
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botao_login {
+    width: 115px;
+    height: 47px;
+    border-radius: 8px;
+    background-color: #DC7726;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.como_funciona {
+    color: #045D53;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+}
+
+.item img {
+    width: 36px;
+    height: 36px;
+    margin-right: 8px;
+}
