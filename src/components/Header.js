@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import imgHeader from "../assets/header/header-logo.svg";
+// import imgHeader from "../assets/header/header-logo.svg";
 
 function Header() {
 
@@ -22,10 +22,10 @@ function Header() {
       <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-white border-bottom">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/" onClick={changeNav}>
-          <img 
+          {/* <img 
             src={imgHeader} 
             height="35px"
-          />
+          /> */}
             <span className="ms-2 h5">Outlet</span>
           </Link>
 
