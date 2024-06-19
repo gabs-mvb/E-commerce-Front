@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import * as React from 'react';
 import Product from "../../pages/products/Product";
 import ProductH from "../../pages/products/ProductH";
 import { useState } from "react";
@@ -6,23 +7,43 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import ScrollToTopOnMount from "../../components/ScrollToTopOnMount";
 
 const categories = [
-  "All Products",
-  "Phones & Tablets",
-  "Cases & Covers",
-  "Screen Guards",
-  "Cables & Chargers",
-  "Power Banks",
+  "Todos os produtos",
+  "Camisas",
+  "Shorts",
+  "Tênis",
+  "Bolsas",
+  "Óculos",
 ];
 
-const brands = ["Apple", "Samsung", "Google", "HTC"];
-
-const manufacturers = ["HOCO", "Nillkin", "Remax", "Baseus"];
+const brands = ["Nike", "Lacoste", "Adidas", "Hugo Boss"];
 
 function FilterMenuLeft() {
+  const [inputMinValue, setInputMinValue] = React.useState('');
+  const [inputMaxValue, setInputMaxValue] = React.useState('');
+  const formatValue = (value) => {
+    const numericValue = value.replace(/\D/g, '');
+
+    if (numericValue === '') {
+      return ''; // Ou qualquer valor desejado para representar vazio
+    }
+    return `R$ ${parseInt(numericValue, 10).toLocaleString('pt-BR')}`;
+  };
+
+  // Handler para mudanças no input
+  const handleInputChangeMin = (event) => {
+    const { value } = event.target;
+    setInputMinValue(formatValue(value));
+  };
+
+  const handleInputChangeMax = (event) => {
+    const { value } = event.target;
+    setInputMaxValue(formatValue(value));
+  };
+
   return (
     <ul className="list-group list-group-flush rounded">
       <li className="list-group-item d-none d-lg-block">
-        <h5 className="mt-1 mb-2">Browse</h5>
+        <h5 className="mt-1 mb-2">Procurar</h5>
         <div className="d-flex flex-wrap my-2">
           {categories.map((v, i) => {
             return (
@@ -39,7 +60,7 @@ function FilterMenuLeft() {
         </div>
       </li>
       <li className="list-group-item">
-        <h5 className="mt-1 mb-1">Brands</h5>
+        <h5 className="mt-1 mb-1">Marcas</h5>
         <div className="d-flex flex-column">
           {brands.map((v, i) => {
             return (
@@ -54,42 +75,31 @@ function FilterMenuLeft() {
         </div>
       </li>
       <li className="list-group-item">
-        <h5 className="mt-1 mb-1">Manufacturers</h5>
-        <div className="d-flex flex-column">
-          {manufacturers.map((v, i) => {
-            return (
-              <div key={i} className="form-check">
-                <input className="form-check-input" type="checkbox" />
-                <label className="form-check-label" htmlFor="flexCheckDefault">
-                  {v}
-                </label>
-              </div>
-            );
-          })}
-        </div>
-      </li>
-      <li className="list-group-item">
-        <h5 className="mt-1 mb-2">Price Range</h5>
+        <h5 className="mt-1 mb-2">Faixa de preço</h5>
         <div className="d-grid d-block mb-3">
           <div className="form-floating mb-2">
+
             <input
-              type="text"
+              type="text" // Mudamos para 'text' para poder formatar o valor adequadamente
               className="form-control"
-              placeholder="Min"
-              defaultValue="100000"
+              placeholder="R$ 30.00"
+              value={inputMinValue}
+              onChange={handleInputChangeMin}
             />
-            <label htmlFor="floatingInput">Min Price</label>
+
+            <label htmlFor="floatingInput">Preço mínimo</label>
           </div>
           <div className="form-floating mb-2">
-            <input
-              type="text"
+          <input
+              type="text" // Mudamos para 'text' para poder formatar o valor adequadamente
               className="form-control"
-              placeholder="Max"
-              defaultValue="500000"
+              placeholder="R$ 500.00"
+              value={inputMaxValue}
+              onChange={handleInputChangeMax}
             />
-            <label htmlFor="floatingInput">Max Price</label>
+            <label htmlFor="floatingInput">Preço máximo</label>
           </div>
-          <button className="btn btn-dark">Apply</button>
+          <button className="btn btn-dark">Confirmar</button>
         </div>
       </li>
     </ul>
@@ -116,11 +126,12 @@ function ProductList() {
               to="/products"
               replace
             >
-              All Prodcuts
+              Todos Produtos
             </Link>
           </li>
           <li className="breadcrumb-item active" aria-current="page">
-            Cases &amp; Covers
+            Camisas
+            {/* Fazer integração para inserir o BREADCRUMBS */}
           </li>
         </ol>
       </nav>
@@ -156,7 +167,7 @@ function ProductList() {
                   aria-expanded="false"
                   aria-controls="collapseFilter"
                 >
-                  Filter Products
+                  Filtro de Produtos
                 </button>
               </h2>
             </div>
@@ -188,10 +199,10 @@ function ProductList() {
                   aria-label="Default select example"
                   defaultValue=""
                 >
-                  <option value="">All Models</option>
-                  <option value="1">iPhone X</option>
-                  <option value="2">iPhone Xs</option>
-                  <option value="3">iPhone 11</option>
+                  <option value="">Peruana</option>
+                  <option value="1">Manga Longa</option>
+                  <option value="2">Lisa</option>
+                  <option value="3">Regata</option>
                 </select>
               </div>
               <div className="col-lg-9 col-xl-5 offset-xl-4 d-flex flex-row">
@@ -199,7 +210,7 @@ function ProductList() {
                   <input
                     className="form-control"
                     type="text"
-                    placeholder="Search products..."
+                    placeholder="Procurar produto..."
                     aria-label="search input"
                   />
                   <button className="btn btn-outline-dark">
@@ -235,7 +246,7 @@ function ProductList() {
             </div>
             <div className="d-flex align-items-center mt-auto">
               <span className="text-muted small d-none d-md-inline">
-                Showing 10 of 100
+                Listar 10 de 100
               </span>
               <nav aria-label="Page navigation example" className="ms-auto">
                 <ul className="pagination my-0">
@@ -261,7 +272,7 @@ function ProductList() {
                   </li>
                   <li className="page-item">
                     <a className="page-link" href="!#">
-                      Next
+                      Próximo
                     </a>
                   </li>
                 </ul>
