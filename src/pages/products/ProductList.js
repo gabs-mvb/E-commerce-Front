@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import * as React from 'react';
 import Product from "../../pages/products/Product";
-import ProductH from "../../pages/products/ProductH";
+import ProductGrid from "./ProductGrid";
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import ScrollToTopOnMount from "../../components/ScrollToTopOnMount";
@@ -240,7 +240,7 @@ function ProductList() {
                   );
                 }
                 return (
-                  <ProductH key={i} percentOff={i % 4 === 0 ? 15 : null} />
+                  <ProductGrid key={i} percentOff={i % 4 === 0 ? 15 : null} />
                 );
               })}
             </div>

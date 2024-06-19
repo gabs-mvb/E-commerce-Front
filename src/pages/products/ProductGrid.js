@@ -1,11 +1,11 @@
-import Image from "./../../assets/products/nillkin-case-1.jpg";
+import Image from "./../../assets/products/Kit-1.jpg";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function ProductH(props) {
-  const price = 10000;
+  const price = 500;
   let percentOff;
-  let offPrice = `${price}Ks`;
+  let offPrice = `R$ ${price}`;
 
   if (props.percentOff && props.percentOff > 0) {
     percentOff = (
@@ -19,7 +19,7 @@ function ProductH(props) {
 
     offPrice = (
       <>
-        <del>{price}Ks</del> {price - (props.percentOff * price) / 100}Ks
+        <del>R$ {price}</del> - R${price - (props.percentOff * price) / 100}
       </>
     );
   }
@@ -41,14 +41,14 @@ function ProductH(props) {
             <div className="card-body h-100">
               <div className="d-flex flex-column h-100">
                 <h5 className="card-title text-dark text-truncate mb-1">
-                  Nillkin iPhone X cover
+                  Kit - 1
                 </h5>
                 <span className="card-text text-muted mb-2 flex-shrink-0">
                   {offPrice}
                 </span>
                 <div className="mt-auto d-flex">
                   <button className="btn btn-outline-dark ms-auto">
-                    <FontAwesomeIcon icon={["fas", "cart-plus"]} /> Add to cart
+                    <FontAwesomeIcon icon={["fas", "cart-plus"]} /> Adicionar ao carrinho
                   </button>
                 </div>
               </div>

@@ -1,6 +1,8 @@
-import Image from "./../../assets/products/Kit-1.jpg";
-import { Link } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Image from './../../assets/products/Kit-3.jpg';
+import "../products/css/Product.css"; // Import the CSS file
 
 function Product(props) {
   const price = 500;
@@ -11,7 +13,7 @@ function Product(props) {
     percentOff = (
       <div
         className="badge bg-dim py-2 text-white position-absolute"
-        style={{ top: "0.5rem", right: "0.5rem" }}
+        style={{ top: '0.5rem', right: '0.5rem' }}
       >
         {props.percentOff}% OFF
       </div>
@@ -26,15 +28,10 @@ function Product(props) {
 
   return (
     <div className="col">
-      <div className="card shadow-sm">
+      <div className="card shadow-sm product-card">
         <Link to="/products/1" href="!#" replace>
           {percentOff}
-          <img
-            className="card-img-top bg-dark cover"
-            height="200"
-            alt=""
-            src={Image}
-          />
+          <div className="card-img-top bg-dark product-image" style={{ backgroundImage: `url(${Image})` }} />
         </Link>
         <div className="card-body">
           <h5 className="card-title text-center text-dark text-truncate">
@@ -43,7 +40,7 @@ function Product(props) {
           <p className="card-text text-center text-muted mb-0">{offPrice}</p>
           <div className="d-grid d-block">
             <button className="btn btn-outline-dark mt-3">
-              <FontAwesomeIcon icon={["fas", "cart-plus"]} /> Adicionar ao carrinho
+              <FontAwesomeIcon icon={['fas', 'cart-plus']} /> Adicionar ao carrinho
             </button>
           </div>
         </div>
