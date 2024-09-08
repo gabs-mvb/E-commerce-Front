@@ -1,10 +1,12 @@
-import Image from "../../../assets/products/nillkin-case-1.jpg";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import Image from "../../../assets/products/Kit-3.jpg";
+import "../../products/css/Product.css"; // Import the CSS file
 
 function RelatedProduct(props) {
-  const price = 10000;
+  const price = 250;
   let percentOff;
-  let offPrice = `${price}Ks`;
+  let offPrice = `R$ ${price}`;
 
   if (props.percentOff && props.percentOff > 0) {
     percentOff = (
@@ -18,34 +20,26 @@ function RelatedProduct(props) {
 
     offPrice = (
       <>
-        <del>{price}Ks</del> {price - (props.percentOff * price) / 100}Ks
+        <del>R$ {price}</del> - R$ {price - (props.percentOff * price) / 100}
       </>
     );
   }
 
   return (
-    <Link
-      to="/products/1"
-      className="col text-decoration-none"
-      href="!#"
-      replace
-    >
-      <div className="card shadow-sm">
-        {percentOff}
-        <img
-          className="card-img-top bg-dark cover"
-          height="200"
-          alt=""
-          src={Image}
-        />
+    <div className="col">
+      <div className="card shadow-sm product-card">
+        <Link to="/products/1" href="!#" replace>
+          {percentOff}
+          <div className="card-img-top bg-dark product-image" style={{ backgroundImage: `url(${Image})` }} />
+        </Link>
         <div className="card-body">
           <h5 className="card-title text-center text-dark text-truncate">
-            Nillkin iPhone X cover
+            Kit - 2
           </h5>
-          <p className="card-text text-center text-muted">{offPrice}</p>
+          <p className="card-text text-center text-muted mb-0">{offPrice}</p>
         </div>
       </div>
-    </Link>
+    </div>
   );
 }
 

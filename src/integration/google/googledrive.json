@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "culinart-416419",
+  "private_key_id": "6e4a8e0578ea68f1f973b5150284fffeb3f15bd6",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDAEOm9SJyso6a1\nXSPH/ABKSZ1gig8ylv3unzO5XhU9o9C8wVWI6j2RczDJ/28gPx2DWltCcbQSecsQ\n8Ft7OP1E8j/ab8edTl2/AdXZvX9aEJnQ/XnokmCkSNwAtEXlNSYXZFSM/4ZwA5bs\n3uB8Gc0vBuQ7IxR9FcNa05Msg8DrFJWDFwtZdQh6SO1ndNmOH1SUvNDpzTSR71V2\n55jQdxeJn6qOwcqRvyMOKRQXzY9uNIEKEHi1jMUKqER3XNq8Z6JAzpb38ejUnjUU\ndroB/52DqJJi51mzfG9+yy6V0jhZbh4YZlwrISMJMXY7CGhnUjCUDHX16TDxyWZ/\nMBZnIKxVAgMBAAECggEADpoakyPumWd1uKskmcMsaHlxSBIm9qMpGhercIfZGI8Y\nQwl1zct1M9YsmubbFXoG7eIUNxh65r6wtBB5/APIqZG7TgmahPicwvVKQ1wXTwsd\nDpj+yDI8u7C4XStXdwYT58pebTvOBj0Xn9mP+o9hnJYrCt3vZFUfvYuBUGyR4a1U\ntNlvWKX1SN0J4vSoLUbeTOUGfsoyDoK+uYyY7W91ZB0tqwFWmGjWLu46WVZlDYO4\nzrOSEyPCU0097FXuA88vzh7Zcd1a85RkEc/0lBcnZaGTxjouKZrxHKxJtntcqfuI\nE7b7mA3wU7Cwlz4I4zsYmeyyC+AEcW+f9uFNZsvqPwKBgQDmZXgZI3bfWtdB1D4f\nBGFBN52frfoLhREV5YXoN297MlY7DY9k5iSkbPeoGpSj/iHwSfz94D4TvdnBBaqt\nRf4OYHGnMLGzsdZLbSa/7xo5MmGe8aPTPwLh9A3Kv9SII1PTAeEPa8RLVYRDy8jw\n3cKc27opMcyM0dvoULOZEOrGDwKBgQDVaPziVIxVAqebL2f+v4jrU0qjvj4kG3HM\nkJGTuHrj6Mp8ub1zlN8U+p/MClZdr3yfXy4Uk5njhUucncMDHQBLY66TaX4uW2ja\nNBeEGnZwEZ5uEgiZJH8q9r7PDT8CofBdQ4a/jceJ9SIzPAQKHEBH6HL6myisX6Kc\npkpUEtxrWwKBgHKNlvYgzPTmzMo9RhnT6qsrhOKk9QMPSVxyv26jSXmeoINCDb7k\nMunSCBz8AlW7gJJhpzlvak4UghVXxPHcMCJjz36KVoB69oqQHckmkApKQ4FsscDR\nvpQr7UOWt4xszDvI3mb1dSbjwRyYUTN5f07QbTIYQZTurwFGRtXfNGv/AoGAFi90\n4p6BfDDrdaGHAR+uPzCIeN9FHIHR4b9Bswahl+HScwboIATg8BBh3ldQxSqCHRtK\n8g6qF9H6m0x3QnKYXj39nwt/d5g/HTf/HdeWam4adzzesfTuV2wRR/sLit2E3F0x\nu+YkUT4vkP3zOY3YTOFoWo8Yulqyz/All/nh+jMCgYEApCXittcB/HgQdnD01uoO\nAHTXtxuwtHYf5VcsrA+0QFFLk61kY5p1/6fmf6xbnpx0PE7IWNvgBpFx9npxadqb\nSlhWfKLlxC4/GRElCerX4ZEoEwrSS+LI+WQcm5Ac95RGGh5LZns38VyyM0yDP8xc\nxNxm0S9p9B+NnYpcf6sXPus=\n-----END PRIVATE KEY-----\n",
+  "client_email": "culinart-dev@culinart-416419.iam.gserviceaccount.com",
+  "client_id": "102708272733625958351",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/culinart-dev%40culinart-416419.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
