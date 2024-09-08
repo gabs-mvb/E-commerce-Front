@@ -2,8 +2,8 @@ import axios from "axios";
 
 const IP = {
     local: `http://localhost:8080/api`,
-    //TODO: Implementação futura
-    dominio: ''
+    //Melhoria futura
+    dominio: ``
 }
 
 const api = axios.create({
@@ -15,14 +15,4 @@ const api = axios.create({
     }
 });
 
-
-const apiImg = axios.create({
-    baseURL: IP.img,
-    timeout: 15000
-});
-
-export {
-    api,
-    apiImg
-};
-
+export default api;
