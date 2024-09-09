@@ -17,7 +17,7 @@ import * as Yup from "yup";
 import Swal from "sweetalert2";
 import { toast } from "react-toastify";
 import { injectStyle } from "react-toastify/dist/inject-style";
-import api from "./../../api/Api";
+import api from "../../api/Api";
 import { useNavigate } from "react-router-dom";
 
 const validationSchema = Yup.object().shape({
