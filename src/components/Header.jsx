@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import './css/Header.css'; 
 // import imgHeader from "../assets/header/header-logo.svg";
 
 function Header() {
@@ -58,16 +59,33 @@ function Header() {
                   className="dropdown-menu dropdown-menu-end fade"
                   aria-labelledby="userDropdown"
                 >
-                  <li>
-                    <Link to="/login" className="dropdown-item" onClick={changeNav}>
-                      Login
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/singup" className="dropdown-item" onClick={changeNav}>
-                      Cadastrar
-                    </Link>
-                  </li>
+                  {sessionStorage.getItem('permissao') ? (
+                    <li>
+                      <Link
+                        to="/sair"
+                        className="dropdown-item"
+                        onClick={() => {
+                          sessionStorage.clear();
+                          window.location.reload(); // Atualiza a página para refletir a mudança
+                        }}
+                      >
+                        Sair
+                      </Link>
+                    </li>
+                  ) : (
+                    <>
+                      <li>
+                        <Link to="/login" className="dropdown-item" onClick={changeNav}>
+                          Login
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="/singup" className="dropdown-item" onClick={changeNav}>
+                          Cadastrar
+                        </Link>
+                      </li>
+                    </>
+                  )}
                 </ul>
               </li>
             </ul>

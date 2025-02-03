@@ -8,6 +8,7 @@ import Login from "./pages/login/Login";
 import Singup from "./pages/login/Singup";
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import CartPage from './pages/products/CartPage';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       />
       <Template>
         <Routes>
+          <Route path="/cart" element={<CartPage />} />
           <Route path="/products" element={<ProductList />} />
           <Route path="/products/:slug" element={<ProductDetail />} />
           <Route path="/" element={<Landing />} />

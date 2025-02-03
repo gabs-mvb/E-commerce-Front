@@ -123,16 +123,28 @@ export default function SignUp() {
             minHeight: "100vh",
             display: "flex",
             flexDirection: "column",
-            justifyContent: "center",
             alignItems: "center",
+            justifyContent: "center",
           }}
         >
-          <Avatar sx={{ m: 2, bgcolor: "secondary.main" }}>
-            <LockOutlinedIcon />
-          </Avatar>
-          <Typography component="h1" variant="h5" sx={{ m: 2 }}>
-            Cadastrar
-          </Typography>
+          {/* Área fixa para o ícone e o título */}
+          <Box
+            sx={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              position: "relative", // Mantém fixo
+            }}
+          >
+            <Avatar sx={{ m: 2, bgcolor: "secondary.main" }}>
+              <LockOutlinedIcon />
+            </Avatar>
+            <Typography component="h1" variant="h5" sx={{ m: 2 }}>
+              Cadastrar
+            </Typography>
+          </Box>
+  
+          {/* Formulário abaixo */}
           <Formik
             initialValues={{
               nome: "",
@@ -149,7 +161,12 @@ export default function SignUp() {
             validateOnChange={true}
           >
             {({ setFieldValue, touched, errors }) => (
-              <Form noValidate>
+              <Form
+                noValidate
+                style={{
+                  width: "100%", // Garante que o formulário preencha a largura
+                }}
+              >
                 <Grid container spacing={2}>
                   <Grid item xs={12} sm={6}>
                     <Field
@@ -252,4 +269,5 @@ export default function SignUp() {
       </Container>
     </ThemeProvider>
   );
+  
 }

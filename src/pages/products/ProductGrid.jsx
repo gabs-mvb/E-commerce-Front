@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function ProductH(props) {
-  const price = 500;
+  const price = props.produto.preco.toFixed(2);
   let percentOff;
   let offPrice = `R$ ${price}`;
 
@@ -19,7 +19,7 @@ function ProductH(props) {
 
     offPrice = (
       <>
-        <del>R$ {price}</del> - R${price - (props.percentOff * price) / 100}
+        <del>R$ {price}</del> - R${(price - (props.percentOff * price) / 100).toFixed(2)}
       </>
     );
   }
@@ -41,7 +41,7 @@ function ProductH(props) {
             <div className="card-body h-100">
               <div className="d-flex flex-column h-100">
                 <h5 className="card-title text-dark text-truncate mb-1">
-                  Kit - 1
+                 {props.produto.nome}
                 </h5>
                 <span className="card-text text-muted mb-2 flex-shrink-0">
                   {offPrice}

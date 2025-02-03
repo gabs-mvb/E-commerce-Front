@@ -1,0 +1,77 @@
+header nav.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    box-sizing: border-box;
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-brand img {
+    max-height: 35px;
+    height: auto;
+  }
+  
+  .navbar-collapse {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-collapse .navbar-nav {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .navbar-collapse .btn {
+    white-space: nowrap;
+  }
+  
+  .navbar-toggler {
+    padding: 0.5rem;
+    border: none;
+  }
+  
+  .navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  
+  .dropdown-menu {
+    min-width: 200px;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-collapse {
+      display: none;
+    }
+    .navbar-collapse.open {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      background-color: white;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      padding: 1rem;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      z-index: 1000;
+    }
+  
+    .navbar-toggler {
+      display: inline-block;
+    }
+  
+    .navbar-collapse .btn,
+    .navbar-collapse .navbar-nav {
+      width: 100%;
+    }
+  }
+  

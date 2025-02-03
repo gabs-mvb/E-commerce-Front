@@ -78,6 +78,7 @@ export default function SignIn() {
 
                     toast.success('Login realizado com sucesso!');
                     navigate('/products')
+                    window.location.reload();
                 }
             })
             .catch(error => {
